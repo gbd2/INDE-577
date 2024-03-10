@@ -16,7 +16,7 @@ Machine learning is the development of a computer program/system that has the ab
 
 ### Course Description:
 
-This data science course covers algorithms from supervised learning, unsupervised learning, and if time permits, reinforcement learning. We will implement many of the machine learning algorithms from scratch in python, but will also make use of, Scikit-Learn, Keras, and Tensorflow. Topics include, but are not limited to:
+A comprehensive journey through data science and machine learning. This graduate course serves as a holistic introduction, focusing on essential algorithms, data science methodologies, and the complete data processing lifecycle. Topics include:
 
 ## Data Science Practices
 
@@ -28,11 +28,10 @@ This data science course covers algorithms from supervised learning, unsupervise
 
 #### Supervised Learning
 
-- Model Building and Error Analysis
-- Linear Regression
+- Model Building, Validation, and Error Analysis
 - Gradient Descent
-- Logistic Regression
-- Neural Nets
+- Linear and Logistic Regression
+- Neural Networks
 - Support Vector Machines
 - k-Nearest Neighbors
 - Decision/Regression Trees
@@ -41,10 +40,8 @@ This data science course covers algorithms from supervised learning, unsupervise
 #### Unsupervised Learning
 
 - k-Means Clustering
-- Principle Component Analysis
-
-#### Reinforcement Learning
-
-- Tabular versus Deep Learning Methods
+- Hierarchical Clustering
+- Principal Component Analysis
+- Anomaly Detection
 
 This repository contains notes on each of the ML topics as well as Jupyter Notebook files that explore datasets and apply each of the topics. Data science tools used in this repository include Python (versions 3.6 and above), pandas, matplotlib, seaborn, NumPy, and scikit-learn. The course also introduced students to powerful assistant tools such as ChatGPT, GPT4, and Github CoPilot.
