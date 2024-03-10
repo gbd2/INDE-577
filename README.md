@@ -6,7 +6,7 @@ This repository is a thorough summary of Rice Univeristy's "Data Science and Mac
 
 ### What is Machine Learning?
 
-Machine learning is the development of a computer program/system that has the ability to predict future data and make adaptations based on future observations. Machine learning is incredibly beneficial in simplifying tasks that would otherwise require extensive manual tuning and application of rules. When put into practice, machine learning can solve intricate problems such as:
+Machine learning is the development of a computer program/system that has the ability to predict future data and make adaptations based on the current observed data. Machine learning is incredibly beneficial in simplifying tasks that would otherwise require extensive manual tuning and application of rules. When put into practice, machine learning can solve intricate problems such as:
 
 - **Facilitating interaction:** Empowering chatbots with natural language understanding, enabling image and speech recognition for app interactions through voice commands.
 - **Detecting anomalies:** Identifying instances of fraud, spam, hate speech, and even tumors.
