@@ -15,7 +15,7 @@ From Dr. Davila's notes:
 "Clearly the function $f(w) = (w - 2)^2 + 1$ has a **global minimum** at $w = 2$. Supposing we did not already know the answer, how could we find it? That is, we wish to solve:
 
 $$
-\min_{w\in \mathbb{R}} f(w) \:\:\:\:\:\:\:\:\:\:
+\min_{w\in \mathbb{R}} f(w)
 $$
 
 This class of problems falls into the realm of *unconstrained continuous optimization*.
@@ -61,6 +61,8 @@ Suboptimal convergence is a disadvantage of simple gradient descent where the al
 
 Gradient descent in respect to machine learning is used to minimize a cost/loss function. A common measure of a model's performance is the Mean Squared Eror (MSE):
 
-$MSE = \sum_{i=1}^{n}(y_{i} - \hat{y_{i}})^2$,
+$$
+MSE = \sum_{i=1}^{n}\Big(y_{i} - \hat{y}_{(i)}\Big)^2
+$$
 
 where $y_{i}$ is the true value and $\hat{y_{i}}$ is the predicted value.
