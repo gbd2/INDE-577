@@ -6,7 +6,7 @@ The Perceptron is a fundamental algorithm in machine learning and artificial int
 
 The Perceptron algorithm was developed by Frank Rosenblatt in 1957 and is inspired by the functioning of a biological neuron. It consists of a single artificial neuron that takes multiple inputs, applies weights to them, and produces an output.
 
-Per Dr. Davila's notes, "The perceptron is a single neuron model with the *sign* activation function as depicted in the figure below:
+Per Dr. Davila's notes, "The perceptron is a single neuron model with the *sign* activation function as depicted in the figure below":
 
 ![alt text](ThePerceptronImage.png)
 
