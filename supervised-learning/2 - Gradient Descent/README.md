@@ -62,7 +62,7 @@ Suboptimal convergence is a disadvantage of simple gradient descent where the al
 Gradient descent in respect to machine learning is used to minimize a cost/loss function. A common measure of a model's performance is the Mean Squared Eror (MSE):
 
 $$
-MSE = \sum_{i=1}^{n}\Big(y_{i} - \hat{y}_{(i)}\Big)^2
+MSE = \frac{1}{2N}\sum_{i=1}^{n}\Big(y_{i} - \hat{y}_{(i)}\Big)^2
 $$
 
 where $y_{i}$ is the true value and $\hat{y_{i}}$ is the predicted value.
