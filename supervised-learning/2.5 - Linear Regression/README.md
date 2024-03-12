@@ -4,7 +4,7 @@ In this notebook, we will introduce Linear Regression, a fundamental concept of 
 
 *Note: no notebook was created for this topic, as it is showcased in the Gradient Descent notebook already.*
 
-Linear regression (in specific, simple linear regression) is a method of modeling a relationship between dependent variable $x$ and a dependent variable $y$. The end goal of linear regression is to find a linear equation that accurately represents the input data $(x_0, y_0), (x_1, y_1),..., (x_i, y_i),..., (x_n, y_n)$.
+Linear regression (in specific, simple linear regression) is a method of modeling a relationship between dependent variable $x$ and a dependent variable $y$. The end goal of linear regression is to find a linear equation that accurately represents the input data $(x_0, y_0), (x_1, y_1),..., (x_n, y_n)$.
 
 Linear regression can be used for both prediction (predicting future values of $y$ given new values of the $x$) and inference (understanding the relationship between the $y$ and $x$).
 
@@ -34,7 +34,7 @@ $$
 where 
 
 $$
-\hat{y}_{i} = wx_{i} + b. 
+\hat y_i = wx_i + b 
 $$
 
 Now, we can construct a signle neuron model with a linear activation function and the $MSE$ cost function.
@@ -53,15 +53,15 @@ $$
 
 where:
 
-1. $\frac{\partial MSE(\mathbf{x}_{i}, y_{i})}{\partial w} = (wx_{i} + b - y_{i})x_{i} = (\hat{y}_{i} - y_{i})x_{i}$
-2. $\frac{\partial MSE(\mathbf{x}_{i}, y_{i})}{\partial b} = (wx_{i} + b - y_{i}) = (\hat{y}_{i} - y_{i})$
+1. $\frac{\partial MSE(x_i, y_i)}{\partial w} = (wx_i + b - y_i)x_i = (\hat y_i - y_i)x_i$
+2. $\frac{\partial MSE(x_i, y_i)}{\partial b} = (wx_i + b - y_i) = (\hat y_i - y_i)$
 
 for each $(x_i, y_i)$. 
 
 Putting this together,
 
-1. $\frac{\partial MSE(\mathbf{X}, y)}{\partial w} = \frac{1}{N}\sum_{i=1}^{N}\Big(\hat{y}^{(i)} - y^{(i)}\Big)x^{(i)}$
-2. $\frac{\partial MSE(\mathbf{X}, y)}{\partial b} = \frac{1}{N}\sum_{i=1}^{N}\Big(\hat{y}^{(i)} - y^{(i)}\Big)$
+1. $$\frac{\partial MSE(\mathbf{X}, y)}{\partial w} = \frac{1}{n}\sum_{i=1}^{n}\Big(\hat y_i - y_i\Big)x_i$$
+2. $$\frac{\partial MSE(\mathbf X, y)}{\partial b} = \frac{1}{n}\sum_{i=1}^{n}\Big(\hat y_i - y_i\Big)$$
 
 Calculating the full gradient with respect to all training data and applying the gradient descent algorithm is called **batch gradient descent**.
 
@@ -80,9 +80,9 @@ The most common way work around for this problem is to update $w$ and $b$ by cal
 ### Stochastic Gradient Descent Algorithm
 1. For each epoch **do**
 2. For $i = 1, \dots, N$ **do**
-3. Calculate $\frac{\partial MSE(\mathbf{x}_{i}, y_{i})}{\partial w}$ and $\frac{\partial MSE(\mathbf{x}_{i}, y_{i})}{\partial b}$.
-4. $w \leftarrow w - \alpha \frac{\partial MSE(\mathbf{x_i}, y_i)}{\partial w}$
-5. $b \leftarrow b - \alpha \frac{\partial MSE(\mathbf{x_i}, y_i)}{\partial b}$
+3. Calculate $\frac{\partial MSE(x_i, y_i)}{\partial w}$ and $\frac{\partial MSE(x_i, y_i)}{\partial b}$.
+4. $w \leftarrow w - \alpha \frac{\partial MSE(x_i, y_i)}{\partial w}$
+5. $b \leftarrow b - \alpha \frac{\partial MSE(x_i, y_i)}{\partial b}$
 
 For single neuron models in practice, stochastic gradient descent should be the preferred way for optimizing the weights and bias by minimizing the cost function.
 
