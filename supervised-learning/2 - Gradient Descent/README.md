@@ -2,6 +2,8 @@
 
 In this notebook, we will introduce gradient descent, a well-known optimization algorithm of convex functions.
 
+*Note: the gradient descent notebook showcases both Gradient Descent and Linear Regression.*
+
 Gradient descent is best explained with an analogous scenario. Say you are around down a hilly area and you want to reach the valley with the lowest altitude (see image below). 
 
 ![alt text](Multivariate_functions.png)
