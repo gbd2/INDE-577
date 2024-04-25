@@ -22,6 +22,10 @@ def clean_data(df):
     
     # Drop the rows with missing values
     df = df.dropna()
+    
+    # Edit the artists to only include the first artist (remove everything after the first ;)
+    df['artists'] = df['artists'].str.split(';', expand=True)[0]
+    
     return df
 
 def get_df():
