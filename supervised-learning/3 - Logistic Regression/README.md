@@ -50,4 +50,4 @@ This derivation can be found [here](https://towardsdatascience.com/an-introducti
 
 In logistic regression, we do not have to assume that the data is linearly separable, as the function is merely classifying probablistically. However, if the data is linearly separable, we will obtain a much more accurate model.
 
-Credit to Dr. Davila's notes as well as [this article](https://towardsdatascience.com/an-introduction-to-logistic-regression-8136ad65da2e), where a handful of the content of this file is adapted from.
+Credit to Dr. Davila's notes as well as [this article](https://towardsdatascience.com/an-introduction-to-logistic-regression-8136ad65da2e), where a handful of the content in this file is adapted from.
