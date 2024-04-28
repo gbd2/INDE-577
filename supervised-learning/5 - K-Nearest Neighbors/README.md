@@ -37,3 +37,5 @@ While all of these are options, it is generally a good practice to keep the valu
 - **Genre Classification**: KNN can help in automatic genre classification of tracks based on their audio features. This can be particularly useful for categorizing and organizing vast libraries of music.
 
 - **Mood-Based Classification**: Spotify can use KNN to classify songs into mood-based categories (e.g., happy, sad, energetic). This can improve personalized playlists that fit a user's current mood.
+
+Credit to Dr. Davila's notes as well as [this article](https://towardsdatascience.com/a-simple-introduction-to-k-nearest-neighbors-algorithm-b3519ed98e), where a handful of the content in this file is adapted from.
