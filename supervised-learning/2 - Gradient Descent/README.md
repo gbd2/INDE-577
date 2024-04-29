@@ -68,3 +68,11 @@ MSE = \frac{1}{2N}\sum_{i=1}^{n}\Big(y_{i} - \hat{y}_{(i)}\Big)^2
 $$
 
 where $y_{i}$ is the true value and $\hat{y_{i}}$ is the predicted value.
+
+### Spotify Applications of Gradient Descent
+
+- **Recommendation Systems:** Spotify's core feature is its ability to recommend music that users will likely enjoy. These recommendation systems often rely on machine learning models such as collaborative filtering, neural networks, or matrix factorization techniques, where gradient descent is used to minimize a loss function. This loss function measures the difference between the users' actual listening habits and the songs the system recommends. By optimizing this, Spotify can enhance its recommendations, making them more personalized and accurate.
+
+- **User Retention Models:** Spotify can use gradient descent in predictive models that determine the likelihood of a user unsubscribing or becoming inactive. By optimizing these models, Spotify can identify at-risk users and potentially engage them with personalized strategies to improve retention, such as special offers or highlighting new features or content they might like.
+
+- **Audio Normalization:** Spotify uses loudness normalization to ensure a consistent listening experience across all tracks. Optimization algorithms like gradient descent can help adjust the audio processing parameters that balance track loudness without sacrificing dynamic range.
