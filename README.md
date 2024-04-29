@@ -2,7 +2,7 @@
 
 ![132994733-3940c6b9-ffca-4a41-bae6-e9418484c15b](https://github.com/gbd2/INDE-577/assets/122506184/82cd0343-0d25-4a52-a983-04f36c858558)
 
-This repository is a thorough summary of Rice Univeristy's "Data Science and Machine Learning" graduate-level course in Industrial Engineering.
+This repository is a thorough summary of Rice University's "Data Science and Machine Learning" graduate-level course in Industrial Engineering.
 
 ### What is Machine Learning?
 
@@ -32,16 +32,13 @@ A comprehensive journey through data science and machine learning. This graduate
 - Gradient Descent
 - Linear and Logistic Regression
 - Neural Networks
-- Support Vector Machines
 - k-Nearest Neighbors
-- Decision/Regression Trees
+- Decision Trees
 - Ensemble Learning
 
 #### Unsupervised Learning
 
 - k-Means Clustering
-- Hierarchical Clustering
 - Principal Component Analysis
-- Anomaly Detection
 
 This repository contains notes on each of the ML topics as well as Jupyter Notebook files that explore datasets and apply each of the topics. Data science tools used in this repository include Python (versions 3.6 and above), pandas, matplotlib, seaborn, NumPy, and scikit-learn. The course also introduced students to powerful assistant tools such as ChatGPT, GPT4, and Github CoPilot.
