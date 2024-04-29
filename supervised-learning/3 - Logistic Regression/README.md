@@ -50,4 +50,13 @@ This derivation can be found [here](https://towardsdatascience.com/an-introducti
 
 In logistic regression, we do not have to assume that the data is linearly separable, as the function is merely classifying probablistically. However, if the data is linearly separable, we will obtain a much more accurate model.
 
+### Spotify Applications of Logistic Regression
+
+- **Radio Feature:** Similar to playlist generation, logistic regression could help determine the next song to play in a radio feature by predicting the likelihood of a song being appreciated by the user based on their previous interactions.
+
+- **Marketing Campaigns:** By predicting user responses to different marketing strategies, Spotify can tailor campaigns more effectively, targeting users with promotions and offers they're more likely to appreciate and respond to.
+
+- **Product Features A/B Testing:** When testing new features (like a new interface or algorithm change), logistic regression can be used to predict and evaluate user engagement or satisfaction, helping Spotify make data-driven decisions about which features to roll out broadly.
+
+
 Credit to Dr. Davila's notes as well as [this article](https://towardsdatascience.com/an-introduction-to-logistic-regression-8136ad65da2e), where a handful of the content in this file is adapted from.
