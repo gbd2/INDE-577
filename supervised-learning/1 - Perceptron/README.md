@@ -88,3 +88,7 @@ class Perceptron:
     def predict(self, X):
         return np.where(self.net_input(X) >= 0.0, 1, -1)
 ```
+
+### Spotify Application of the Perceptron
+
+-  **User Interface Adaptation:** Perceptrons could be used to adapt the Spotify user interface based on user interactions. For instance, if a user frequently uses certain features, a simple perceptron could help classify these features as high priority and adjust the user interface to make these features more accessible. This kind of binary decision-making is well-suited to the capabilities of a perceptron.
