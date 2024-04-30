@@ -45,7 +45,7 @@ Cons:
 
 ### Choosing a $K$
 
-Selecting the right number of clusters ($K$) is an important decision that can significantly affect the outcomes of the K-means clustering algorithm. There is no one-size-fits-all answer to this question, but there are methods to guide the selection, such asz:
+Selecting the right number of clusters ($K$) is an important decision that can significantly affect the outcomes of the K-means clustering algorithm. There is no one-size-fits-all answer to this question, but there are methods to guide the selection, such as:
 
 -   **Elbow Method**
     - **How It Works:** The Elbow method involves plotting the explained variation as a function of the number of clusters and picking the elbow of the curve as the number of clusters to use. This is often measured by the within-cluster sum of squares (WCSS), which decreases as K increases. The "elbow" typically represents a point where adding more clusters does not provide significantly better modeling of the data.
@@ -56,7 +56,14 @@ Selecting the right number of clusters ($K$) is an important decision that can s
         - Plot K against the WCSS.
         - Look for a kink or "elbow" in the plot. This is an indicator of the appropriate number of clusters.
 
-- Cross-validation
+- **Silhouette Analysis**
+    - **How It Works:** Silhouette Analysis measures how similar an object is to its own cluster compared to other clusters. The Silhouette Score is a way of measuring how well each object lies within its cluster, a high score relating to a model with better defined clusters.
+
+    **Procedure:**
+        - Compute the silhouette score for a range of $k$ values.
+        - Choose the $k$ which yields the highest average silhouette score.
+
+- **Cross-validation**
     - **How It Works:** Although less common for unsupervised learning like clustering, cross-validation can be adapted to estimate how well the clustering generalizes to new data. One approach is to split the data into train and test sets, clustering the train set for different values of $K$, and validating the stability of cluster assignments across the test set.
 
     **Procedure:**
@@ -65,6 +72,9 @@ Selecting the right number of clusters ($K$) is an important decision that can s
         - Apply the cluster labels determined from the training set to the test set.
         - Evaluate the consistency of cluster assignments across the test set. The optimal $K$ is usually where this stability is maximized.
 
+### Silhouette Score
+
+Silhouette Score measures how close each point in one cluster is to points in the neighboring clusters. This metric provides a way to assess parameters like the number of clusters visually and quantitatively. It ranges from -1 to +1, where a value above .5 indicates that the clusters are well separated.
 
 ### Applications of $K$-Means Clustering
 
