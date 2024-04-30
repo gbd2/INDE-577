@@ -32,16 +32,12 @@ Types of Neural Networks include:
 
 As mentioned earlier, activation functions help introduce non-linearity into the network, which allow it to learn complex patterns in the data. Some common activation functions include:
 
--**Linear function (no change)**: $$\text{linear}(z_i)=z_i$$
-Used in linear regression.
+-**Linear function (no change, used in linear regression)**: $f(z_i)=z_i$
 
--**Sigmoid function**: $\sigma(z_i) = \frac{1}{1 + e^{-z_i}}$
+-**Sigmoid function (used in logistic regression)**: $\sigma(z_i) = \frac{1}{1 + e^{-z_i}}$
 
-Used in logistic regression.
+-**Tanh function (used in Multilayer Perceptron Neural Networks)**: $\tanh(z_i) = \frac{\sinh(z_i)}{\cosh(z_i)} = \frac{e^{z_i} - e^{-z_i}}{e^{z_i} + e^{-z_i}}$
 
--**Tanh function**: $\tanh(z_i) = \frac{\sinh(z_i)}{\cosh(z_i)} = \frac{e^{z_i} - e^{-z_i}}{e^{z_i} + e^{-z_i}}$
-
-Used in Multilayer Perceptron Neural Networks.
 
 *Note: the examples of when activation functions are used are just one of many examples of their use.*
 
