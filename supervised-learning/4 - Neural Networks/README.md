@@ -1,5 +1,7 @@
 ## Neural Networks
 
+![alt text](neuralnetwork.jpg)
+
 Neural networks are a core component of machine learning. They are models represented as computational graphs and are inspired by the structure and function the human brain. Neural networks contain an input layer, a sequence of hidden layers consisting of multiple single
 neurons, and an output layer. This results in a highly composite function that can be used for regression or classification tasks in supervised learning (which we will focus on in this notebook), dimensionality reduction, and deep learning.
 
@@ -41,7 +43,7 @@ Used in Multilayer Perceptron Neural Networks.
 
 *Note: the examples of when activation functions are used are just one of many examples of their use.*
 
-### Stochastic Gradient Descent + Backpropogation for Neural Networks
+### Backpropogation for Neural Networks
 
 Backpropagation is a method used for calculating the gradient of the loss function in neural networks. By passing error information back through the network, the information is used to update the weights in a direction that minimally decreases the error.
 
