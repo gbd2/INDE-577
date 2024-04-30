@@ -27,7 +27,8 @@ The goal during the prediction phase is to apply the current model (with its ini
 **Weighted Sum Calculation:** For each input vector $X_i$ in the dataset, calculate the weighted sum of the inputs plus the bias. This is done using the formula: $Z = X_i \cdot w + b$, where $Z$ is the weighted sum, $X_i$ is the input vector for the ith training example, $w$ represents the weight vector, and $b$ is the bias.
 
 2. **Apply Activation Function:** Apply the activation function to the weighted sum to determine the prediction. In the case of the Perceptron, this is typically a step function defined as: <br><br>
-   $$f(Z) = \begin{cases} 
+   $$
+   f(Z) = \begin{cases} 
       1 & \text{if } Z \geq 0 \\
       -1 & \text{otherwise}
    \end{cases}
