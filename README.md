@@ -25,20 +25,28 @@ A comprehensive journey through data science and machine learning. This graduate
 - Visual Studio Code
 - Version Control with Git and GitHub
 - Data Visualization
+- Model Building, Validation, and Error Analysis
 
 #### Supervised Learning
 
-- Model Building, Validation, and Error Analysis
-- Gradient Descent
-- Linear and Logistic Regression
-- Neural Networks
-- k-Nearest Neighbors
-- Decision Trees
-- Ensemble Learning
+- (The Perceptron)[https://github.com/gbd2/INDE-577/tree/main/supervised-learning/1%20-%20Perceptron]
+- (Gradient Descent)[https://github.com/gbd2/INDE-577/tree/main/supervised-learning/2%20-%20Gradient%20Descent]
+- (Linear Regression)[https://github.com/gbd2/INDE-577/tree/main/supervised-learning/2.5%20-%20Linear%20Regression]
+- (Logistic Regression)[https://github.com/gbd2/INDE-577/tree/main/supervised-learning/3%20-%20Logistic%20Regression]
+- (Neural Networks)[https://github.com/gbd2/INDE-577/tree/main/supervised-learning/4%20-%20Neural%20Networks]
+- (k-Nearest Neighbors)[https://github.com/gbd2/INDE-577/tree/main/supervised-learning/5%20-%20K-Nearest%20Neighbors]
+- (Decision Trees)[https://github.com/gbd2/INDE-577/tree/main/supervised-learning/6%20-%20Decision%20Trees]
+- (Ensemble Learning)[https://github.com/gbd2/INDE-577/tree/main/supervised-learning/7%20-%20Ensemble%20Methods]
 
 #### Unsupervised Learning
 
-- k-Means Clustering
-- Principal Component Analysis
+- (Principal Component Analysis)[https://github.com/gbd2/INDE-577/tree/main/unsupervised-learning/8%20-%20Principal%20Component%20Analysis]
+- (k-Means Clustering)[https://github.com/gbd2/INDE-577/tree/main/unsupervised-learning/9%20-%20K%20Means%20Clustering]
+- (DBSCAN)[https://github.com/gbd2/INDE-577/tree/main/unsupervised-learning/10%20-%20DBSCAN]
+
 
 This repository contains notes on each of the ML topics as well as Jupyter Notebook files that explore datasets and apply each of the topics. Data science tools used in this repository include Python (versions 3.6 and above), pandas, matplotlib, seaborn, NumPy, and scikit-learn. The course also introduced students to powerful assistant tools such as ChatGPT, GPT4, and Github CoPilot.
+
+### Dataset Used
+
+In the notebooks of this repository, (this Spotify dataset)[https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset] will be used. I love music, and Spotify is somewhere I'd like to work in the future, so it only seemed natural to me to utilize this dataset for the project!

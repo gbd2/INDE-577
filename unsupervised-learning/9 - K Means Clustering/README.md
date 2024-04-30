@@ -1,5 +1,7 @@
 ## $K$-Means Clustering
 
+![alt text](kmeans.png)
+
 $K$-Means Clustering is a popular unsupervised machine learning algorithm that is used to partition a set of data points into $K$ distinct, non-overlapping subgroups (clusters) where each data point belongs to only one group. It is a method of vector quantization, originally from signal processing, that aims to partition $n$ observations into $k$ clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
 
 ### How K-Means Works

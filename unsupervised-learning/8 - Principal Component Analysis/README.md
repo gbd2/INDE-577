@@ -1,5 +1,7 @@
 ## Principle Component Analysis
 
+![alt text](PCA.png)
+
 Principal Component Analysis (PCA) is a statistical technique used in the field of data science and machine learning to emphasize variation and bring out strong patterns in a dataset. It is a dimension-reduction tool that can be used to reduce a large amount of varaibles into a smaller amount and still contain most of the information.
 
 ### How PCA Works

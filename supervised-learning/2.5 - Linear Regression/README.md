@@ -2,15 +2,9 @@
 
 In this notebook, we will introduce Linear Regression, a fundamental concept of Machine Learning.
 
-*Note: no notebook was created for this topic, as it is showcased in the Gradient Descent notebook already.*
-
 Linear regression (in specific, simple linear regression) is a method of modeling a relationship between dependent variable $x$ and a dependent variable $y$. The end goal of linear regression is to find a linear equation that accurately represents the input data $(x_0, y_0), (x_1, y_1),..., (x_n, y_n)$.
 
 Linear regression can be used for both prediction (predicting future values of $y$ given new values of the $x$) and inference (understanding the relationship between the $y$ and $x$).
-
-### Regression vs. Classification
-
-![alt text](Regression_VS_Classification.png)
 
 ### Assumptions of Linear Models
 
