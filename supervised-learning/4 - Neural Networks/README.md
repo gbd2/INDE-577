@@ -35,10 +35,12 @@ As mentioned earlier, activation functions help introduce non-linearity into the
 -**Linear function (no change)**: $$\text{linear}(z_i)=z_i$$
 Used in linear regression.
 
--**Sigmoid function**:$$\sigma(z_i) = \frac{1}{1 + e^{-z_i}}$$
+-**Sigmoid function**: $\sigma(z_i) = \frac{1}{1 + e^{-z_i}}$
+
 Used in logistic regression.
 
--**Tanh function**:$$\tanh(z_i) = \frac{\sinh(z_i)}{\cosh(z_i)} = \frac{e^{z_i} - e^{-z_i}}{e^{z_i} + e^{-z_i}}$$
+-**Tanh function**: $\tanh(z_i) = \frac{\sinh(z_i)}{\cosh(z_i)} = \frac{e^{z_i} - e^{-z_i}}{e^{z_i} + e^{-z_i}}$
+
 Used in Multilayer Perceptron Neural Networks.
 
 *Note: the examples of when activation functions are used are just one of many examples of their use.*
@@ -57,7 +59,7 @@ The gradient can be found using backpropagation as follows:
 
 - **Output error**: Compute $\delta^L = \nabla_aC \otimes \sigma'(z^L)$.
 
-- **Backpropogate**: For $\ell = L-1, \dots, 1$, compute $\delta^\ell$=$\left[(w^{\ell +1})^T\delta^{\ell +1} \right] \otimes \sigma'(z^\ell)$.
+- **Backpropogate**: For $\ell = L-1, \dots, 1$, compute $\delta^{\ell} = \left [(w^{\ell +1})^{T}\delta^{\ell +1} \right] \otimes \sigma'(z^{\ell})$.
 
 
 ### Applications of Neural Networks:
